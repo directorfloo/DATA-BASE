@@ -83,6 +83,13 @@ SELECT DISTINCT SKU, SKU_Description
 FROM INVENTORY
 WHERE SKU_Description LIKE '__d%';
 
+-- 
+select *
+from WAREHOUSE as w left join INVENTORY as i
+on i.WarehouseID = W. i.WarehouseID;
+
+
+
 
 
 
